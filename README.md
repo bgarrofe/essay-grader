@@ -27,7 +27,7 @@ Pontifícia Universidade Católica do Rio de Janeiro
 
 Curso de Pós Graduação *Business Intelligence Master*
 
-<!-- GETTING STARTED -->
+
 ## Getting Started
 
 These are the instructions on setting up your project locally.
@@ -88,7 +88,6 @@ Here are the things you need to use the software and how to install them.
    ```
 
 
-<!-- USAGE EXAMPLES -->
 ## Running
 
 To run the application you need to start the backend server using python and the next.js frontend application using node.
@@ -108,12 +107,12 @@ To run the application you need to start the backend server using python and the
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-<!-- CONTACT -->
+
 ## Contact
 
 Bruno Garrofé - [website](https://garrofe.org/) - bruno dot garrofe at gmail dot com
