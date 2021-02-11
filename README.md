@@ -13,9 +13,9 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 
 Alguns exames de avaliação como o GMAT ou o TOEFL exigem que o candidato elabore uma redação respondendo a um tema específico. Essas redações são corrigidas por avaliadores profissionais mas também por avaliadores automáticos: softwares que analisam a redação e dão notas automaticamente. Esses softwares já são amplamente utilizados e estudos mostram já ser capaz de atingir ou superar um avaliador humano. Por outro lado, os ganhos em escala e redução de custos são gigantescos. 
 
-O trabalho em questão visa desenvolver uma prova de conceito de um software de avaliação automática de redações que seja capaz de demonstrar resultados aceitáveis e que possa servir como base para construção de uma ferramenta mais robusta e passível de utilizaçaõ em larga escala em aplicações práticas. 
+O trabalho em questão visa desenvolver uma prova de conceito de um software de avaliação automática de redações que seja capaz de demonstrar resultados aceitáveis e que possa servir como base para construção de uma ferramenta mais robusta e passível de utilização em larga escala em aplicações práticas. 
 
-Foi desenvolvido um website simples em que o usuário pode fazer o preenchimento da redação receber como retorno uma nota correspondente. No servidor, rodará uma aplicação que recebe o texto da redação fazendo as devidas modelagens e inferência para predição do resultado (score) correspondente. 
+Foi desenvolvido um website simples em que o usuário pode fazer o preenchimento da redação e receber como retorno uma nota correspondente. No servidor, rodará uma aplicação que recebe o texto da redação, faz as devidas modelagens e calcula a predição do resultado (score) correspondente. 
 
 Como metodologia, foram utilizadas técnicas de NLP para tratamento dos textos e geração das features. Foram gerados 2 grupos de features: i) meta features: dados como: tamanho do texto, número de palavras, número de sentenças, percentual de erros gramaticais, percentual de erros de escrita, etc ii) vector features: representação do texto em document embeddings. Para modelagem foi utilizado um regressor com base na metodo de Random Forests.
 
