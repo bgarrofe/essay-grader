@@ -11,8 +11,8 @@ export default function EssayContainer() {
                     NATURAL LANGUAGE PROCESSING
                 </div>
                 <h2 className="text-white text-5xl font-bold">
-                    Data to enrich your{" "}
-                    <span className="text-indigo-600">online business</span>
+                    Perfect your{" "}
+                    <span className="text-indigo-600">writing skills</span>
                 </h2>
                 <h2 className="mt-12 mb-4 text-2xl lg:text-3xl font-bold font-heading text-white">
                     Choose your prompt

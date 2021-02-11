@@ -171,7 +171,7 @@ class Scorer(object):
     def infer_features(self, text):
         feats = {}
         feats.update(self.infer_meta_features(text))
-        feats.update(self.infer_meta_features(text))
+        # feats.update(self.infer_meta_features(text))
         feats.update(self.infer_grammar(text))
 
         return feats

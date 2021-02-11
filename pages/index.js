@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div>
             <Head>
-                <title>Create Next App</title>
+                <title>Essay Grader</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 

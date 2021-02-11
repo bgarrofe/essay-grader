@@ -18,7 +18,9 @@
 # misc
 .DS_Store
 *.pem
+.vscode
 env
+__pycache__/
 
 # debug
 npm-debug.log*
